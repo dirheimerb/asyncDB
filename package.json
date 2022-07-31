@@ -1,0 +1,32 @@
+{
+  "name": "asyncdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bradley Dirheimer",
+  "repository": {
+    "type": "git",
+    "directory": "",
+    "url": "https://github.com/dirheimerb/asyncdb"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.0.11"
+  }, 
+  "engines": {
+    "npm": ">=8.15.0",
+    "node": ">=16.15.1",
+    "tsc": ">=4.7.4"
+  },
+  "browserslist":[
+    "> 1%",
+    "last 3 versions",
+    "not ie <="
+  ]
+}
